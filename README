@@ -1,0 +1,6 @@
+usage:
+readAkai <wav file>
+writes the patches to stdout
+writeAkai <wav file>
+reads patches from stdin and writes them to a file
+
