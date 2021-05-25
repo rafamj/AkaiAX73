@@ -7,8 +7,8 @@ int main(int argc, char **argv) {
   int banks_n,i;
 
   if(argc!=2) return -1;
-
   banks_n=read_akai_file(argv[1],bank);
+  
   for(i=0;i<banks_n;i++) {
     printBank(&bank[i],i);
   }

@@ -337,8 +337,10 @@ int bank_number=0;
             if(bytes_received%52==0) { 
               parameter_number=0;
               bank_number++;
-              //if(bank_number==100) return bank_number;
-              if(bank_number==100) printf("\n");
+              if(bank_number==100) {
+	         printf("\n");
+		 return bank_number;
+	      }
               //printBank(&bank[bank_number],bank_number);
             }
           buffer_index=0;

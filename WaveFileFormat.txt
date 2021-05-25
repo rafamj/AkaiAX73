@@ -1,0 +1,26 @@
+There are 2 frequecies in the file 2400 Hz and 1200 Hz. (1060?)
+2400 Hz codifies an 1 and 1200 Hz codifies a 0.
+Header: 
+first there are 3000-4000 1's 1111......1111
+00
+110110110
+17 1's  11111111111111111
+
+Data: 
+the first and last bits are 0.
+every value has 7 bits
+order bit0.....bit6
+The 1's are duplicated
+after every 7 bits of data there are 15 1's
+
+example:
+000000000111111111111111 codifies 0
+0110000000111111111111111 codifies 1
+0011000000111111111111111 codifies 2
+01111000000111111111111111 codifies 3
+
+Tail:
+the value 85 is repeated 30 times
+110110110110111111111111111
+there are 0's(1500'?) until the end of the file
+

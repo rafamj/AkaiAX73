@@ -67,6 +67,7 @@ int i;
     printf("%c",b->LABEL[i]);
   }
   printf("\n");
+  
 }
 
 static int getParamNumber(char *par) {
